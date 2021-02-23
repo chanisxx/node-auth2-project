@@ -13,7 +13,7 @@ server.use(cookieParser())
 
 server.use(usersRouter);
 server.get("/", (req, res) => {
-    res.json({ api: "up" });
+    res.json({ api: "up!!!" });
 });
 
 module.exports = server;
